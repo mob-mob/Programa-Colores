@@ -8,7 +8,7 @@ h1 {
     color: #6272a4;
 }
 
-form {
+.texto {
     display: flex;
     justify-content: center;
 }
@@ -20,7 +20,28 @@ form {
     color: #f8f8f2;
 }
 
+.botonD {
+    display: flex;
+    justify-content: center;
+}
+
+.boton {
+    background-color: #44475a;
+    color: #f8f8f2;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    padding: 5px 10px;
+}
+
+.boton:hover {
+    cursor: pointer;
+    background-color: #6272a4;
+    color: #282a36;
+}
+
 .parrafo {
     text-align: center;
     font-size: 30px;
+    margin: 10px 0;
 }
